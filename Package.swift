@@ -20,8 +20,9 @@ let package = Package(
             targets: ["BuildableMacro"]
         ),
     ],
+
     dependencies: [
-        .package(url: "https://github.com/apple/swift-syntax.git", from: "600.0.0"),
+        .package(url: "https://github.com/swiftlang/swift-syntax", from: "600.0.0"),
         .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.6.1"),
     ],
     targets: [
