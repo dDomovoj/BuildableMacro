@@ -22,7 +22,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-syntax.git", from: "600.0.0"),
-        .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.1.0"),
+        .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.6.1"),
     ],
     targets: [
         // Macro implementation that performs the source transformation of a macro.
